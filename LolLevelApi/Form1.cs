@@ -22,7 +22,7 @@ namespace LolLevelApi
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string apiKey = "RGAPI-75d3e78a-c1a8-4f0a-a9bc-e4c5764772cd";
+            string apiKey = "";//Add your RiotApi Key Here
             WebRequest request = HttpWebRequest.Create("https://tr1.api.riotgames.com/lol/summoner/v4/summoners/by-name/" + nickName.Text + "?api_key=" + apiKey);
 
             try
